@@ -79,13 +79,13 @@ body {background-image: linear-gradient(aquamarine, black);}
     .primeravic {
         
         font-size: 50px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         display: contents;
         justify-content:space-around ;
     } 
                 /* PRIMEROS PASOS CSS  */
     .div-pp {
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         display: grid;
         grid-template-columns: repeat(4, 300px);
         grid-template-rows: repeat(8, 105px);
@@ -143,6 +143,54 @@ body {background-image: linear-gradient(aquamarine, black);}
     .pp { margin-top: 50px;}
 
     .img-pp { margin-left: 130px; }
+
+    /* TRAYECTORIA CSS*/
+
+h4 { font-size: 15px;}
+.body-try { margin-left: 320px;}
+.caja { color: #fefefe;
+text-align: center;
+}
+
+.div-try { font-family: Verdana, Geneva, Tahoma, sans-serif;}
+.div1-try{ background-color: aquamarine;
+border: solid 1px black;}
+
+.div2-try { background-color: aquamarine;
+border: solid 1px black;}
+
+.div3-try { 
+    border: solid 1px black;
+}
+.h1-try {
+    margin-top: 10px;
+    color: black;}
+.h2-try {
+    margin-top: 10px;
+    color: black;
+    text-align: center;
+}
+.div3-try { text-align: center;}
+ 
+/* GIRD */
+
+
+.div-try {
+    display: grid;
+grid-template-columns: repeat(4, 300px);
+grid-template-rows: repeat(2, 100px) 200px 250px repeat(2, 150px);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.div1-try { grid-area: 1 / 1 / 2 / 5; }
+.div2-try { grid-area: 2 / 4 / 3 / 5; }
+.div3-try { grid-area: 2 / 1 / 3 / 3; }
+.div4-try { grid-area: 3 / 1 / 5 / 3; }
+.div5-try { grid-area: 3 / 3 / 5 / 5; }
+.div6-try { grid-area: 6 / 1 / 7 / 5; }
+
+
  /* FIRST MOBILE INDEX */
 .indexdiv{ display: grid; }
 
